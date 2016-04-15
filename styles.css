@@ -1,0 +1,108 @@
+body {
+	color: #373737;
+	font-family: 'Lato', sans-serif;
+	background-image: url("images/background.png");
+	/* text-align: center;--> */
+}
+
+h1, h2, h3, h4 {
+	color: #222B40;
+	font-family: 'Covered By Your Grace', cursive;
+	letter-spacing: 1px;
+	font-size: 30px;
+}
+
+h1{
+	font-size: 60px;
+	font-family: 'Covered By Your Grace', cursive;
+}
+
+h2.black{
+	color: black;
+}
+
+img.border{
+	border: 5px solid #000000;
+	margin: auto;
+}
+
+ul {
+	list-style-type: square;
+	margin: auto;
+	text-align: left;
+}
+
+table, td {
+	border: 2px dotted #222B40;
+	text-align: center;
+	margin: auto;
+}
+
+p { 
+	line-height: 28px;
+}
+
+p strong {
+	color: #222B40;
+}
+
+#header {
+	background-color: #9491A5;
+	padding: 10px;
+	border: 4px dotted #585857;
+	text-align: center;
+}
+
+#main {
+	clear: both;
+	width: 900px;
+	background-color: rgba(555,555,555,0.01);
+	margin: 20px auto;
+}
+
+#sidebar {
+	width: 260px;
+	float: left;
+	padding: 20px;
+	background-color: rgba(555,555,555,0.4);
+	height: 900px;
+	/*border: 1px solid #000000; */
+}
+
+#content {
+	width: 560px;
+	height: 900px;
+	padding: 20px;
+	float: right;
+	background-color: rgba(228, 229, 225, 0.6);
+}
+
+
+#footer {
+	clear: both;
+	width: 900px;
+	text-align: right;
+}
+
+#nav a:link{
+	color: #222B40;
+	font-family: 'Covered By Your Grace', cursive;
+	letter-spacing: 1px;
+	font-size: 25px;
+	text-decoration: none;
+	display: block;
+}
+
+/* this order matters! */
+
+#nav a:visited{
+	color: #222B40;
+}
+
+#nav a:hover{
+	color: gray;
+}
+
+#nav a.active{
+	color: #51583C;
+}
